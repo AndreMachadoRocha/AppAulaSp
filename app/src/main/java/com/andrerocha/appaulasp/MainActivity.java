@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 "fora de estoque"));
         Log.d(TAG,"onCreate: Código:......... "+sharedPreferences.getInt("codigoProduto",-1));
         Log.d(TAG,"onCreate: Preco:........."+sharedPreferences.getFloat("preco",-1.0f));
-        Log.d(TAG,"onCreate: Tem no Estoque:."+sharedPreferences.getBoolean("estoque",false));
+        Log.d(TAG,"onCreate: Produto Tem no Estoque:."+sharedPreferences.getBoolean("estoque",false));
 
         //dados.clear();
         //dados.apply();
